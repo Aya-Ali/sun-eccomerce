@@ -68,7 +68,7 @@ export default function Cart() {
   return (
     <div>
       <h1 className='text-3xl'>Shop   Cart</h1>
-      {cartLoading ? <h1 className='text-3xl'>Loadddddddddddddddddddddddddddddddding</h1> : <>
+      {cartLoading ? <h1 className='text-3xl'>loading Cart</h1> : <>
 
 
         {cart != undefined && cart?.totalCartPrice != 0 ? <>
