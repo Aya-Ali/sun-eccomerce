@@ -14,9 +14,9 @@ export default async function Home() {
     <>
       <MainSlider />
 
-      <h1>Home</h1>
+      <h1>Home {process.env.NEXT_URL}</h1>
 
-      <Suspense fallback={<HomeLoading/>}>
+      <Suspense fallback={<HomeLoading />}>
         <div className="grid lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-6">
 
           {productList.map((product) => {
