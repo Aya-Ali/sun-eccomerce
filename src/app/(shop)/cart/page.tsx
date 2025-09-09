@@ -67,7 +67,7 @@ export default function Cart() {
   }
   return (
     <div>
-      <h1 className='text-3xl'>Shop Cart</h1>
+      <h1 className='text-3xl'>Shop   Cart</h1>
       {cartLoading ? <h1 className='text-3xl'>Loadddddddddddddddddddddddddddddddddddddding</h1> : <>
 
 
